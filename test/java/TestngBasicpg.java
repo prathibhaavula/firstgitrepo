@@ -1,7 +1,7 @@
 import org.testng.annotations.*;
 
 public class TestngBasicpg {
-    @BeforeSuite
+    @BeforeSuitemvn
     public void setUP() {
         System.out.println("lanching browser");
 
