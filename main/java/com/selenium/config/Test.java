@@ -1,5 +1,6 @@
 package com.selenium.config;
 
+
 public class Test{
     private String firstName;
     private String lastName;

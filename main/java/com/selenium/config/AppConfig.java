@@ -1,15 +1,17 @@
 package com.selenium.config;
 
-import com.selenium.config.Test;
+import main/java/com/selenium/config/Test.java;
 
+@Config
 public class AppConfig{
 
-  Test test = new Test();
+  @Autowired
+  Test test;
 
+  public static final String constant = db.get(FirestName);
 
-
-
-    public void getMethod(){
-
+  public void getMethod(){
+      test.setFirstName(constant);
+      test.getFirstName();
     }
 }
